@@ -30,10 +30,12 @@
         </div>
     </nav>
 
-    <main class="container-xxl px-1 px-lg-5">
-        <header class="d-flex my-4">
-            <span class="col-5 col-md-3 col-xl-2 me-auto fs-3 px-0">Catalogo Libri</span>
-            <button type="button" class="btn btn-sm btn-primary col-4 col-md-2 col-xl-1 ms-auto p-0">Aggiungi Libro</button>
+    <main class="container-xxl">
+        <header class="row my-4">
+            <span class="col fs-3">Catalogo Libri</span>
+            <div class="col text-end">
+                <button type="button" class="btn btn-sm btn-primary">Aggiungi Libro</button>
+            </div>
         </header>
 
         <table class="table table-striped mx-0">
@@ -52,7 +54,7 @@
                   <td>
                       <span class="badge bg-success">Disponibile</span>
                   </td>
-                  <td class="text-center d-flex justify-content-around">
+                  <td class="d-table-cell">
                       <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-trash-fill"></i></button>
                       <button class="btn btn-sm btn-outline-secondary"><i class="bi bi-pencil-fill"></i></button>
                   </td>
